@@ -1,7 +1,7 @@
 <?php
 /* Attempt MySQL server connection. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
-$link = mysqli_connect("http://bikefriendlychia.com.md-92.webhostbox.net", "bikefijc_salas_belcorp", "Belcorp2017_", "bikefijc_belcorp");
+$link = mysqli_connect("http://bikefriendlychia.com", "bikefijc_salas_belcorp", "Belcorp2017_", "bikefijc_belcorp");
  
 // Check connection
 if($link === false){
